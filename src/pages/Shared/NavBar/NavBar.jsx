@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const NavBar = () => {
     const navOptions = <>
-    <Link to="/cart">Cart</Link>
+    <Link to="/carts">Cart</Link>
     </>
     return (
         <div className="navbar bg-base-100">
